@@ -4,15 +4,19 @@
  * and open the template in the editor.
  */
 
-let dailyOne = "Day one sales total";
-let dailyTwo = "Day two sales total";
-let dailyThree = "Day three sales total";
-let dailyFour = "Day four sales total";
-let dailyFive = "Day five sales total";
-let dailySix = "Day six sales total";
-let dailySeven = "Day seven sales total";
+let dailyOne = prompt("Day one sales total");
+let dailyTwo = prompt("Day two sales total");
+let dailyThree = prompt("Day three sales total");
+let dailyFour = prompt("Day four sales total");
+let dailyFive = prompt("Day five sales total");
+let dailySix = prompt("Day six sales total");
+let dailySeven = prompt("Day seven sales total");
 
-let salesTotal = [dailyOne, dailyTwo, dailyThree, dailyFour, dailyFive, dailySix, dailySeven];
+let salesArray = [dailyOne, dailyTwo, dailyThree, dailyFour, dailyFive, dailySix, dailySeven];
+let salesArraytotal = (dailyOne + dailyTwo + dailyThree + dailyFour + dailyFive + dailySix + dailySeven); 
+document.write(salesArraytotal);
+document.write("test");
+let weeklyAverage = salesArraytotal/7;
 
-let weeklyAverage = salesTotal/7;
+document.write(weeklyAverage);
 
